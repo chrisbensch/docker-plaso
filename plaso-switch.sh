@@ -25,6 +25,8 @@ case "$1" in
     /usr/bin/psort.py --unattended "${@:2}" ;;
   psteal|psteal.py)
     /usr/bin/psteal.py --unattended "${@:2}" ;;
+  shell)
+    /bin/bash;;
   "")
     /usr/bin/log2timeline.py --unattended "${@:2}" ;;
   *)
