@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:latest
 #MAINTAINER Log2Timeline <log2timeline-dev@googlegroups.com>
 #Based on the work of log2timeline, all credit to them for original Dockerfile
 LABEL maintainer="chris.bensch@gmail.com"
